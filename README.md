@@ -4,11 +4,13 @@ An Arch-based desktop with an offline graphical installer, GNOME, the Airch wall
 
 Created and maintained by **Danny Carroll**, with AI-assisted engineering by **Codex (Elias)**. Upstream projects retain their own authorship and licenses. Danny is the final release authority.
 
-## Download status
+## Download
 
-**Upload pending. There is no public ISO download link yet.**
+**[Download Airch v1.0 prototype — ISO, 4.11 GiB (Google Drive)](https://drive.google.com/file/d/160A2VfMvLiVama7OEKoXFvDL6-En8heV/view?usp=sharing)**
 
-This repository is the prototype's status/download landing page, not the complete source or build repository. The intended Google Drive download will be named `Airch v1.0-prototype.iso`. “v1.0” is the download label; the unchanged image still carries its internal `0.1` development/prototype identity.
+Public viewer access and an anonymous download response were checked on October 15, 2026. Google's reported file size and whole-file CRC32C match the tested local ISO. This is an upload-integrity check, not a full downloaded SHA-256 comparison or a release signature. Google Drive displays its large-file virus-scan warning; the image is not certified malware-free.
+
+This repository is the prototype's status/download landing page, not the complete source or build repository. The download retains its original filename, `airch-prototype-0.1-dev-x86_64.iso`. “Airch v1.0” is the public prototype label; the unchanged image still carries its internal `0.1` development/prototype identity.
 
 The ISO is **unsigned and VM-tested**, not a stable or production release. Distribution-wide source, license and notice review is unfinished; this page does not certify redistribution readiness.
 
@@ -34,7 +36,7 @@ The current Calamares package and installer configuration each passed three clea
 
 ## Identify the exact prototype
 
-Expected download filename: `Airch v1.0-prototype.iso`  
+Download filename: `airch-prototype-0.1-dev-x86_64.iso`  
 Size: **4,417,673,216 bytes** (about 4.11 GiB)  
 SHA-256:
 
@@ -42,10 +44,10 @@ SHA-256:
 6cc3b917a43588bf3482137406b85b2cf399b101f5dcea30806ee24f17e36278
 ```
 
-Once the upload is available, compare the downloaded file:
+Compare the downloaded file:
 
 ```sh
-sha256sum 'Airch v1.0-prototype.iso'
+sha256sum 'airch-prototype-0.1-dev-x86_64.iso'
 ```
 
 The result must match the hash above. A checksum detects differing bytes; it is not a release signature.
